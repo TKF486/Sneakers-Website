@@ -1,0 +1,141 @@
+.product_container_wrapper {
+  height: 400px;
+  position: relative;
+  padding: 65px;
+  padding-top: 0px;
+}
+
+.product_container {
+  height: 466px;
+  width: 383px;
+  margin: 0px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  padding-left: 4px;
+}
+
+.product_card_image {
+  height: 383px;
+  width: 383px;
+  background-color: #f5f8fb;
+}
+
+.product_card_details {
+  height: 133px;
+  width: 226px;
+  position: relative;
+  left: 10px;
+  padding-top: 4px;
+}
+
+.product_image {
+  width: 383px;
+  height: 383px;
+}
+
+.product_category {
+  font-size: 12;
+  color: #767677;
+}
+
+.product_name {
+  font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+  line-height: 16px;
+  word-wrap: break-word;
+}
+
+.product_price {
+  font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.product_sub_container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 400px;
+  padding-top: 20px;
+}
+
+.product_header {
+  text-align: center;
+  margin: 73px;
+}
+
+.product_container:hover {
+  border: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: #0c0000;
+}
+
+.man_banner {
+  height: 34vw;
+  background-image: url(../img/gender/man.jpg);
+  max-width: 100%;
+  margin: 0px auto 70px;
+  background-size: cover;
+  background-position: 0px -30vw;
+}
+
+.woman_banner {
+  height: 34vw;
+  background-image: url(../img/gender/woman.jpg);
+  max-width: 100%;
+  margin: 0px auto 70px;
+  background-size: cover;
+  background-position: 0px -20vw;
+}
+
+.kid_banner {
+  height: 34vw;
+  background-image: url(../img/gender/kid.jpg);
+  max-width: 100%;
+  margin: 0px auto 70px;
+  background-size: cover;
+  background-position: 0px -20vw;
+}
+
+.pro_fil {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pro_fil {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 25px;
+  background-color: rgba(204, 201, 201, 0.4);
+}
+
+select {
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+button.filt_search {
+  border: 1px solid black;
+  padding: 20px;
+  background-color: lightblue;
+  border-radius: 13px;
+}
+
+i.fa.fa-search {
+  font-size: 22px;
+}
+
+.filter_form {
+  margin-top: 29px;
+}

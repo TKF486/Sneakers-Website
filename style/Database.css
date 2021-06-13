@@ -1,0 +1,73 @@
+.open_button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 30px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 125px;
+}
+
+.subtn1 {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 30px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 175px;
+}
+
+.subtn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-family: monospace;
+}
+
+.subtn:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+p11 {
+  color: black;
+  text-transform: capitalize;
+  font-family: monospace;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-radius: 15px;
+  border: white;
+}
+
+tr > th {
+  background-color: rgba(81, 119, 241, 0.664);
+  color: white;
+  height: 37.5px;
+  text-align: center;
+  vertical-align: auto;
+  padding: 15px;
+}
+
+tr > td {
+  line-height: 37.5px;
+  text-align: center;
+  vertical-align: auto;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr > td:hover {
+  background-color: #f5f5f5;
+}
+
+img {
+  max-width: 10vw;
+}

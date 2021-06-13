@@ -1,0 +1,157 @@
+.signup_main_wrapper {
+  height: 874px;
+}
+
+.signup_wrapper {
+  /* background-color: red; */
+  width: 50%;
+  float: left;
+}
+
+form.signup_form {
+  margin-top: 20px;
+}
+
+h5.singup_header {
+  font-size: 22px;
+  margin-top: 22px;
+  margin-bottom: 11px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select {
+  height: 42px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 442px;
+}
+
+input[type="number"],
+select {
+  width: 124px;
+}
+
+input[type="radio"] {
+  height: 20px;
+  width: 81px;
+}
+
+.show_password_wrapper {
+  width: 441px;
+  text-align: right;
+}
+
+input[type="checkbox"] {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  bottom: 24px;
+}
+
+.agree_text {
+  display: inline-block;
+  font-size: 16px;
+  padding-left: 42px;
+  padding-right: 1px;
+  padding-top: 5px;
+}
+
+.button_register,
+.btn {
+  background-color: black;
+  color: white;
+  width: 151px;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+}
+
+.signup_benefits {
+  /* background-color: wheat; */
+  width: 50%;
+  float: right;
+}
+
+.signup_sub_wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.register_header {
+  font-size: 52px;
+}
+
+.signup_benefits ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.signup_benefits ul li:before {
+  content: "✓";
+}
+
+span.signup_li_text {
+  margin-left: 15px;
+}
+
+span.error {
+  color: red;
+  display: none;
+}
+
+input[type="number"] {
+  margin: 0 31px 0 0px;
+}
+
+.show_password_ticker {
+  background-color: white;
+  border: none;
+}
+
+.radio_gender_wrapper {
+  display: flex;
+}
+
+.input-field + span {
+  position: relative;
+}
+
+.input-field + span::before {
+  position: absolute;
+  right: -20px;
+  top: 5px;
+}
+
+.input-field.valid {
+  color: #44e444;
+}
+
+.input-field.invalid {
+  color: #ff0000;
+  border-bottom: 2px solid red;
+}
+
+.input-field.valid + span::before {
+  content: "✓";
+  color: green;
+}
+
+.input-field.invalid + span::before {
+  content: "✖";
+  color: red;
+}
+
+span.dob_tick {
+  right: 36px;
+}
+
+.register_form {
+  margin-left: 20px;
+  margin-top: 25px;
+}

@@ -1,0 +1,16 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.cart_left {
+  float: left;
+  margin-top: 67px;
+}
+
+.cart_right {
+  float: right;
+  margin-top: 120px;
+}

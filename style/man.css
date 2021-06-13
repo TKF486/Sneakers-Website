@@ -1,0 +1,9 @@
+.gender_banner {
+    height: 500px;
+    background-image: url(../img/man_photo.jpg);
+    max-width: 100%;
+    margin: 0px auto 70px;
+    background-size: cover;
+    background-position: 0px -705px;
+
+}

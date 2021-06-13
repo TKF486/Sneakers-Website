@@ -1,0 +1,415 @@
+* {
+  font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* body{
+    scroll-snap-type: y mandatory;
+} */
+
+.product_desc_wrapper {
+  height: 3200px;
+  display: flex;
+  margin-top: 18px;
+}
+
+.product_left_wrapper {
+  width: 70%;
+  height: 100%;
+  display: inline-block;
+  border: 0.2px solid rgb(234 234 234);
+}
+
+.main_image_wrapper {
+  width: 100%;
+  background-color: #f5f8fb;
+  height: 20%;
+}
+
+.img_main {
+  height: 600px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* object-fit: cover; */
+}
+
+.product_right_wrapper {
+  width: 30%;
+  /* background-color: rgb(232 35 35); */
+  height: 100%;
+}
+
+.size_table button {
+  width: 73.5px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.size_table button:hover {
+  background-color: black;
+  color: white;
+}
+
+.cart_button,
+.buy_button,
+.btn {
+  background-color: black;
+  color: white;
+  width: 151px;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+}
+
+.product_size_wrapper {
+  display: table;
+  margin: 0 auto;
+  position: sticky;
+  top: 29px;
+  margin-top: 20px;
+}
+
+.product_detail_navigator {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  border-top: 0.2px solid rgb(234 234 234);
+  border-bottom: 0.2px solid rgb(234 234 234);
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+}
+
+.product_detail_navigator ul {
+  list-style-type: none;
+}
+
+.product_detail_navigator ul li {
+  float: left;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.product_detail_navigator ul li::after {
+  display: block;
+  content: "";
+  border-bottom: 3px solid black;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.product_detail_navigator ul li:hover::after {
+  transform: scaleX(1);
+}
+
+.product_detail_navigator ul li::after {
+  height: 16px;
+}
+
+.btn {
+  margin: 0 27px 0 0px;
+}
+
+.hightlight_grid {
+  display: flex;
+}
+
+.img_grid {
+  height: 250px;
+  width: 250px;
+  /* background-color: #f5f8fb; */
+  /* border: 1px solid black; */
+  margin: 0px 33px 0 0px;
+}
+
+.img_highlight {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.product_highlights {
+  height: 418px;
+  padding-top: 40px;
+}
+
+.product_all_details {
+  display: table;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.desc_wrapper {
+  height: 348px;
+  display: flex;
+}
+
+.desc_pic {
+  height: 350px;
+  width: 350px;
+  float: right;
+  padding-right: 40px;
+}
+
+.img_grid.desc_img_grid {
+  height: 350px;
+  width: 350px;
+  margin-left: 74px;
+}
+
+img.img_highlight.img_desc {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.desc_text_wrapper {
+  width: 35%;
+}
+
+.desc_wrapper.detail_div {
+  padding-top: 30px;
+}
+
+.desc_image_wrapper {
+  width: 100%;
+}
+
+.desc_text_wrapper {
+  width: 88%;
+}
+
+.details_table th {
+  text-align: left;
+}
+
+.details_wrapper.detail_div {
+}
+
+.details_table,
+.details_table th,
+.details_table td {
+  border: 0.2px solid rgb(189 186 186);
+  border-collapse: collapse;
+  padding: 20px;
+}
+
+.ratings_wrapper.detail_div {
+  /* background-color: blanchedalmond; */
+  height: 300px;
+  padding-top: 100px;
+}
+
+.rating_detail_outline {
+  /* background-color: aqua; */
+  width: 200px;
+  height: 100px;
+}
+
+.rating_container {
+  width: 200px;
+  height: 100px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating_detail_wrapper {
+  display: flex;
+}
+
+.average_rating_no {
+  font-size: 50px;
+  position: relative;
+  top: -9px;
+}
+
+.star_review_numbers {
+  padding-left: 8px;
+}
+
+.rating_all_container {
+  display: flex;
+}
+
+.customer_review_wrapper {
+  /* background-color: blueviolet; */
+  height: 500px;
+  width: 100%;
+  margin-right: 40px;
+  padding-left: 31px;
+}
+
+/* .filter_review .product_detail_navigator ul li {
+    border: 0.2px solid rgb(234 234 234);
+    height: 20px;
+} */
+
+.customer_review_container ul li:before {
+  content: "✓";
+}
+
+.customer_review_container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+span.recommend_text {
+  margin-left: 10px;
+}
+
+.customer_name {
+  font-weight: bold;
+}
+
+.verify_purchaser {
+  color: #767677;
+}
+
+span.date_purchase {
+  float: right;
+}
+
+.product_name {
+  font-size: 25px;
+  word-wrap: break-word;
+  width: 29vw;
+}
+
+span.prodcut_brand_category {
+  font-size: 14px;
+}
+
+span.prodcut_price {
+  font-weight: bold;
+}
+
+span.select_size_heading {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.product_detail_header {
+  font-size: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.gl-heading {
+  font-family: "AdineuePRO", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+h5.highlight_title {
+  font-size: 20px;
+}
+
+span.highlight_text {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+p.desc_text {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.product_all_details_wrapper {
+  scroll-behavior: smooth;
+}
+
+.slide_wrapper {
+  /* background-color: antiquewhite; */
+  height: 100px;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+#slider {
+  /* width: 30%; */
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+}
+
+.thumbnail {
+  border: 1px solid black;
+  object-fit: cover;
+  max-width: 100px;
+  max-height: 80px;
+  cursor: pointer;
+  opacity: 0.5;
+  /* margin: 5px; */
+}
+
+.thumbnail:hover {
+  opacity: 1;
+}
+
+.active {
+  opacity: 1;
+}
+
+i.fas.fa-arrow-left,
+i.fas.fa-arrow-right {
+  font-size: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+i.fas.fa-arrow-left:hover,
+i.fas.fa-arrow-right:hover {
+  opacity: 0.5s;
+  font-size: 60px;
+}
+
+button.size-label:focus {
+  background-color: black;
+  color: white;
+}
+
+.memberPrice {
+  color: red;
+  font-weight: bold;
+}
+
+.high_desv {
+  height: 300px;
+  width: 250px;
+  background-color: #f5f8fb;
+  border: 1px solid black;
+  margin: 0px 33px 0 0px;
+  padding: 20px;
+}
+
+.details_wrapper.detail_div {
+  margin-top: 77px;
+}

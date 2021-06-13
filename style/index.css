@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+}
+
+.open_button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+#main {
+  padding: 0;
+  transition: margin-left 0.5s;
+  margin: 0;
+  margin-top: 51px;
+  /* background-color: blue; */
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 50px;
+}
+
+.fa-search {
+  font-size: 18px;
+}
+
+.home_banner {
+  background-image: url("../img/main/whiteshoe.jpg");
+  height: 40vw;
+  max-width: 100%;
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+  background-position-x: 1px;
+}
+
+.choose_gender_category_wrapper {
+  height: 398px;
+  margin-top: 51px;
+}
+
+.category_header {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.gender_sub_wrapper {
+  height: 300px;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.gender_choose {
+  background-color: aqua;
+  height: 325px;
+  width: 450x;
+  float: left;
+  margin: 0 10px;
+}
+
+.gender_img {
+  height: 325px;
+  width: 450x;
+}
+
+.gender_name {
+  background-color: rgb(105, 105, 105, 0.5);
+  height: 325px;
+  line-height: 296px;
+  text-align: center;
+  position: relative;
+  bottom: 325px;
+  color: white;
+  font-size: 31px;
+  font-weight: bold;
+  display: none;
+}
+
+.gender_choose:hover .gender_name {
+  display: block;
+}
+
+.popular_category {
+  height: 120px;
+  text-align: center;
+}
+
+.popular_header {
+  padding-top: 20px;
+}
+
+.keyword_holder {
+  height: 46px;
+  margin-top: 46px;
+}
+
+.keyword_holder a {
+  text-decoration: none;
+  margin-left: 40px;
+  color: black;
+  border: 1px solid black;
+  padding: 14px 20px;
+  text-transform: uppercase;
+}
+
+.keyword_holder a:hover {
+  background-color: grey;
+  color: white;
+}

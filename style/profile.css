@@ -1,0 +1,10 @@
+.btn_style {
+  background-color: black;
+  color: white;
+  width: 151px;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+  float: left;
+  margin-right: 20px;
+}

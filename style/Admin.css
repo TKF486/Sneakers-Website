@@ -1,0 +1,14 @@
+div > a {
+  color: black;
+  font-family: cursive;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+div > a:hover {
+  color: teal;
+}
+
+.admin_func {
+  text-align: center;
+}

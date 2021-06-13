@@ -1,0 +1,73 @@
+img {
+  max-width: 100%;
+  height: auto;
+  width: 44vw;
+}
+.blog_wrapper {
+  margin-left: 61px;
+}
+
+.details_wrapper {
+  width: 44vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+button.subtn1 {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 30px;
+  text-transform: capitalize;
+  position: relative;
+  top: 15px;
+}
+
+.fa.fa-facebook-f {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+i.fa.fa-instagram {
+  font-size: 20px;
+}
+
+/* .icon-wrapper {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+} */
+
+.social_icon_blog {
+  font-size: 40px;
+}
+
+i.fa.fa-facebook-f.social_icon_blog {
+  font-size: 44px;
+}
+
+i.fa.fa-instagram.social_icon_blog {
+  font-size: 50px;
+}
+
+.logo_wrapper_blog ul li {
+  float: left;
+  padding: 28px;
+  list-style-type: none;
+}
+
+h2,
+h1 {
+  font-family: sans-serif;
+  line-height: 37.5px;
+  letter-spacing: 2px;
+}
+
+.details_wrapper {
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+}

@@ -1,0 +1,90 @@
+.open_button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 30px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 125px;
+}
+
+.subtn1 {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 30px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 175px;
+}
+
+.subtn {
+  border-radius: 15px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-family: monospace;
+}
+
+.show_password_ticker {
+  border-radius: 15px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-family: monospace;
+}
+
+p11 {
+  color: black;
+  text-transform: capitalize;
+  font-family: monospace;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+h5 {
+  color: rgba(81, 119, 241, 0.664);
+  font-size: x-large;
+  text-transform: capitalize;
+}
+
+label {
+  color: rgba(81, 119, 241, 0.664);
+  font-size: x-large;
+  text-transform: capitalize;
+}
+
+.radio_gender_wrapper {
+  width: 12.5%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: white;
+}
+
+select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 25px 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 10vw;
+}
